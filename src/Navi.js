@@ -21,7 +21,7 @@ class Navi extends Component{
         render(){
           //  console.log('naviState :' + this.state.naviState);
            return(
-                <Navbar>
+                <Navbar >
                     <NavbarBrand tag="h1">
                         <a href="">
                             <img src={logo} style={{height: 80}}></img>
@@ -55,6 +55,9 @@ class Navi extends Component{
                             </NavLink>
                         </NavItem>
                     </Nav>
+                    <div>
+                        <img src="./login.jpg"></img>
+                    </div>
                 </Navbar>
               )
         }
